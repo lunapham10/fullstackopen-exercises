@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -13,3 +14,5 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser does not do anything extra (does not reload the page, does not send any additional requests).
+
+```
